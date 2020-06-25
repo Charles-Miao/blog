@@ -1,6 +1,10 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
+description: ""
 draft: true
+tags: []
+categories: []
 ---
 
+<!--more-->

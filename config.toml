@@ -53,7 +53,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
   debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
 
-  since = "2017"            # Site creation time          # 站点建立时间
+  since = "2020"            # Site creation time          # 站点建立时间
   # use public git repo url to link lastmod git commit, enableGitInfo should be true.
   # 指定 git 仓库地址，可以生成指向最近更新的 git commit 的链接，需要将 enableGitInfo 设置成 true.
   gitRepo = ""
@@ -70,7 +70,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   showArchiveCount = true
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
-  dateFormatToUse = "2006-01-02 21:21"
+  dateFormatToUse = "2006-01-02"
 
   # show word count and read time ?                       # 是否显示字数统计与阅读时间
   moreMeta = true
