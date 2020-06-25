@@ -1,15 +1,11 @@
 ---
 title: "Zabbix Introduction"
-date: 2020-06-25T18:26:47+08:00
+date: 2019-11-14T18:26:47+08:00
 description: ""
 draft: false
 tags: [Zabbix]
-categories: [Server]
+categories: [运维]
 ---
-
-
-
-# Zabbix Introduction
 
 ## Zabbix介紹
 
@@ -67,15 +63,15 @@ Alexei Vladishev 创建了Zabbix 项目, 当前处于活跃开发状态, Zabbix 
 
 - Agentd客戶端自帶item key（CPU/内存使用率等）
 
-![https://imgchr.com/i/NBqG38](https://imgchr.com/i/NBqG38)
+![own](https://raw.githubusercontent.com/Charles-Miao/blog/master/static/Zabbix-Introduction/1.png)
 
 - Agentd客戶端自定義item key/ 自定義檢查脚本（DELL服務器硬件運行狀況：溫度/風扇/内存/網卡/CPU/硬盤/邏輯磁盤/Power Supply等）
 
-![Zabbix%20Introduction%2057123a977dfc49e3ad4a844d66a1fd63/2.png](Zabbix%20Introduction%2057123a977dfc49e3ad4a844d66a1fd63/2.png)
+![custom](https://raw.githubusercontent.com/Charles-Miao/blog/master/static/Zabbix-Introduction/2.png)
 
 - 自定義item key和檢查脚本透過sender指令發送給服務器，同時服務器配置Trapper監控項（CPU型號/CPU數量/OS版本等），主要用於Zabbix獲取數據有超時的情況
 
-![Zabbix%20Introduction%2057123a977dfc49e3ad4a844d66a1fd63/3.png](Zabbix%20Introduction%2057123a977dfc49e3ad4a844d66a1fd63/3.png)
+![sender](https://raw.githubusercontent.com/Charles-Miao/blog/master/static/Zabbix-Introduction/3.png)
 
 - HP服務器硬件監控（溫度/風扇/内存/網卡/CPU/硬盤/Power Supply等）
 
@@ -83,29 +79,29 @@ Alexei Vladishev 创建了Zabbix 项目, 当前处于活跃开发状态, Zabbix 
 
 帶内：系統内SNMP設定/HP ProLiant Insight Management Agents/ SNMP OID
 
-![Zabbix%20Introduction%2057123a977dfc49e3ad4a844d66a1fd63/4.png](Zabbix%20Introduction%2057123a977dfc49e3ad4a844d66a1fd63/4.png)
+![snmp_ipmi](https://raw.githubusercontent.com/Charles-Miao/blog/master/static/Zabbix-Introduction/4.png)
 
 ## Zabbix應用（圖形展示）
 
 - 圖形
 
-![Zabbix%20Introduction%2057123a977dfc49e3ad4a844d66a1fd63/5.png](Zabbix%20Introduction%2057123a977dfc49e3ad4a844d66a1fd63/5.png)
+![graph](https://raw.githubusercontent.com/Charles-Miao/blog/master/static/Zabbix-Introduction/5.png)
 
 - 聚合圖形
 - 拓撲圖
 
-![Zabbix%20Introduction%2057123a977dfc49e3ad4a844d66a1fd63/6.png](Zabbix%20Introduction%2057123a977dfc49e3ad4a844d66a1fd63/6.png)
+![topology](https://raw.githubusercontent.com/Charles-Miao/blog/master/static/Zabbix-Introduction/6.png)
 
 ## Zabbix應用（觸發通知）
 
 - 觸發（CPU使用率高於60%/ 内存空間小於2G/ 磁盤空間小於20%/ 服務器5分鐘連接不到/ 風扇故障/ CPU故障燈硬件異常等）
 - CPU使用率異常觸發報警
 
-![Zabbix%20Introduction%2057123a977dfc49e3ad4a844d66a1fd63/7.png](Zabbix%20Introduction%2057123a977dfc49e3ad4a844d66a1fd63/7.png)
+![trigger](https://raw.githubusercontent.com/Charles-Miao/blog/master/static/Zabbix-Introduction/7.png)
 
 - CPU使用率恢復正常
 
-![Zabbix%20Introduction%2057123a977dfc49e3ad4a844d66a1fd63/8.png](Zabbix%20Introduction%2057123a977dfc49e3ad4a844d66a1fd63/8.png)
+![recovery](https://raw.githubusercontent.com/Charles-Miao/blog/master/static/Zabbix-Introduction/8.png)
 
 - 通知（郵件通知/ 脚本通知）
 
@@ -115,7 +111,7 @@ Alexei Vladishev 创建了Zabbix 项目, 当前处于活跃开发状态, Zabbix 
 - Zabbix API二次開發（开发web 界面、开发手机端zabbix、获取zabbix 指定数据、创建zabbix 监控项等）
 - 資產清單
 
-![Zabbix%20Introduction%2057123a977dfc49e3ad4a844d66a1fd63/9.png](Zabbix%20Introduction%2057123a977dfc49e3ad4a844d66a1fd63/9.png)
+![other](https://raw.githubusercontent.com/Charles-Miao/blog/master/static/Zabbix-Introduction/9.png)
 
 ## 參考資料
 
@@ -127,11 +123,5 @@ Alexei Vladishev 创建了Zabbix 项目, 当前处于活跃开发状态, Zabbix 
 
 
 
-https://imgchr.com/i/NBq89f
-https://imgchr.com/i/NBqQAI
-https://imgchr.com/i/NBq14P
-https://imgchr.com/i/NBqlNt
-https://imgchr.com/i/NBqUBj
-https://imgchr.com/i/NBqJgS
-https://imgchr.com/i/NBqYjg
-https://imgchr.com/i/NBqNuQ
+
+
