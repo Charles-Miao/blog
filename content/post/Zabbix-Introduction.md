@@ -1,12 +1,13 @@
 ---
-title: "Zabbix Introduction"
+title: "Zabbix Intro & Demo"
 date: 2019-11-14T18:26:47+08:00
 description: ""
 draft: false
 tags: [Zabbix]
 categories: [运维]
 ---
-
+主要简单介绍Zabbix的特性、安装和配置，以及一些常用手册，并demo实现常见的一些数据采集方法、图形展示、触发报警等
+<!--more-->
 ## Zabbix介紹
 
 Alexei Vladishev 创建了Zabbix 项目, 当前处于活跃开发状态, Zabbix SIA提供支持.
@@ -119,7 +120,8 @@ Alexei Vladishev 创建了Zabbix 项目, 当前处于活跃开发状态, Zabbix 
 
 [Zabbix通過SNMP監控HP Gen10服務器硬件](http://www.zmzblog.com/monitor/zabbix-how-to-monitoring-hp-gen10-server-hardware.html)
 
-[HP ProLiant ML/DL/BL iLO2 - 管理控制器驅動程序和管理接](https://support.hpe.com/hpsc/doc/public/display?docld=c01851759)[口](https://support.hpe.com/hpsc/doc/public/display?docId=c01851759)[驅動](https://support.hpe.com/hpsc/doc/public/display?docld=c01851759)[程序如何工作](https://support.hpe.com/hpsc/doc/public/display?docId=c01851759)
+[HP ProLiant ML/DL/BL iLO2 - 管理控制器驅動程序和管理接口驅動](https://support.hpe.com/hpsc/doc/public/display?docld=c01851759)
+
 
 
 

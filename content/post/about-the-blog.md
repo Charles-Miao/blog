@@ -5,6 +5,8 @@ draft: false
 categories: ["生活"]
 author: "Charles Miao"
 ---
+主要讲博客因何而起，以及一路怎么实现的博客，顺便还介绍了一些笔记类工具
+<!--more-->
 
 博客缘起
 ---
