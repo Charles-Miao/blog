@@ -6,7 +6,11 @@ draft: false
 tags: [Zabbix, Linux]
 categories: [运维]
 ---
-主要讲解RHEL 5如何安装和配置agent & snmp协议，以及如何实现HP DL160 G6的硬件监控
+Outline
+---
+- RHEL 5如何安装和配置agent & snmp协议
+- RHEL 5如何实现HP DL160 G6的硬件监控
+- Ubuntu/ RHEL自定义key介绍，以及crontab设定注意事项
 <!--more-->
 
 Download [zabbix agent](https://repo.zabbix.com/zabbix/3.2/rhel/5/x86_64/) rpm package 
@@ -45,6 +49,19 @@ Install & config snmp service
 - hp-snmp-agents-9.40-2506.37.rhel6.x86_64.rpm
 - hp-health-9.40-1602.44.rhel6.x86_64.rpm
 
+Linux自定义Key
+---
+
+- Ubuntu自定义key Python脚本：[https://github.com/Charles-Miao/Server-Monitoring/tree/master/Ver2.0/zabbix/Ubuntu](https://github.com/Charles-Miao/Server-Monitoring/tree/master/Ver2.0/zabbix/Ubuntu)
+- RHEL自定义key Python脚本：[https://github.com/Charles-Miao/Server-Monitoring/tree/master/Ver2.0/zabbix/RHEL](https://github.com/Charles-Miao/Server-Monitoring/tree/master/Ver2.0/zabbix/RHEL)
+- 计划任务crontab设定参照如下指令：
+```shell
+#Ubuntu
+0 13 * * * python /etc/zabbix/general_info.py > ~/temp.log
+
+#RHEL
+0 13 * * * source /etc/profile && python /etc/zabbix/general_info.py
+```
 
 其他知识
 ---

@@ -63,9 +63,9 @@ HP DL380系列服务器透过iLO口snmp协议进行硬件监控
 
 DL160 G6 & Supermicro透过ipmi & snmp协议进行硬件监控
 ---
-- DL160 IPMI接口共用NIC1，需要將BMC NIC Allocatio設定為Shared，賬號：admin，密碼：admin
+- DL160 IPMI接口共用NIC1，需要將BMC NIC Allocation設定為Shared，賬號：admin，密碼：admin
 - Supermicro IPMI接口有單獨的網卡，設定完之後需要**斷電重啓**，賬號：ADMIN，密碼：ADMIN
-- Supsermico服務器透過SNMP協議監控HDD狀況（需要安裝MegaRAID Storage Manager）
+- Supermicro服務器透過SNMP協議監控HDD狀況（需要安裝MegaRAID Storage Manager）
 - IOD查询：[https://mibs.observium.org/mib/LSI-MegaRAID-SAS-MIB/](https://mibs.observium.org/mib/LSI-MegaRAID-SAS-MIB/)
 - Supermicro其他硬件信息透過ipmi協議獲取
 ```
@@ -77,12 +77,12 @@ DELL服务器硬件监控
 DELL服务器因为过旧，都没有安装带外管理的卡，所以硬件监控全部是透过自定key的方式实现的
 
 - 服务器需要安装OMSA管理工具
-- python脚本参见：[https://github.com/Charles-Miao/Server-Monitoring/tree/master/Ver2.0/zabbix/Zabbix/dell](https://github.com/Charles-Miao/Server-Monitoring/tree/master/Ver2.0/zabbix/Zabbix/dell)
+- python脚本参见：[https://github.com/Charles-Miao/Server-Monitoring/tree/master/Ver2.0/zabbix/Windows/Zabbix/dell](https://github.com/Charles-Miao/Server-Monitoring/tree/master/Ver2.0/zabbix/Windows/Zabbix/dell)
 
 Windows服务器一些特殊信息获取
 ---
 因为有很多信息客户端无法获取到，所以需要自己写自定义key，有些指令因为处理时间较长，需要透过Sender的方式进行获取
-- python脚本参见：[https://github.com/Charles-Miao/Server-Monitoring/tree/master/Ver2.0/zabbix/Zabbix/windows](https://github.com/Charles-Miao/Server-Monitoring/tree/master/Ver2.0/zabbix/Zabbix/windows)
+- python脚本参见：[https://github.com/Charles-Miao/Server-Monitoring/tree/master/Ver2.0/zabbix/Windows/Zabbix/windows](https://github.com/Charles-Miao/Server-Monitoring/tree/master/Ver2.0/zabbix/Windows/Zabbix/windows)
 
 
 Zabbix web端配置模板
