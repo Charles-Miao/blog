@@ -6,7 +6,7 @@ draft: false
 tags: [Zabbix, Linux]
 categories: [运维]
 ---
-Outline
+主要内容
 ---
 - RHEL 5如何安装和配置agent & snmp协议
 - RHEL 5如何实现HP DL160 G6的硬件监控
