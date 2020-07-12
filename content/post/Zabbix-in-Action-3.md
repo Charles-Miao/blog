@@ -6,7 +6,7 @@ draft: false
 tags: [Zabbix, Grafana]
 categories: [运维]
 ---
-Outline
+主要内容
 ---
 - Grafana+Zabbix
 - 文件同步监控实战（Grafana+MySQL）
