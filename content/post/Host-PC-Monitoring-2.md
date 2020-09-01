@@ -3,7 +3,7 @@ title: "生产电脑智慧化管理 - 数据可视化篇"
 date: 2020-09-01T22:49:33+08:00
 description: ""
 draft: false
-tags: [监控, 可视化]
+tags: [DYI]
 categories: [原型设计]
 ---
 主要内容
