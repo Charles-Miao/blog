@@ -42,22 +42,32 @@ categories: [运维]
 - 封装Windows image
     - 使用工具：EasySysprep
     - 参考连接：[https://cloud.tencent.com/developer/article/1438238](https://cloud.tencent.com/developer/article/1438238)
-- 自动化部署电脑系统、驱动和程式（单独章节说明）
-    - 使用工具和方法：Ansible、PXE备份还原、自定义系统开发
+
 - 自动升级电脑补丁
     - 使用工具：WSUS
-- 电脑自动休眠和shutdown（待完善）
+
 - 远程登录产线电脑，并协助处理问题
     - 使用工具：TightVNC
     - 使用方法：将VNC工具封装在电脑image中，透过监控系统获取电脑的IP信息，再透过服务器远程控制产线电脑
+
 - 自动检查officescan和正版激活状况
     - 自定义开发工具：[https://github.com/Charles-Miao/Python-in-Action/tree/master/CheckComputer](https://github.com/Charles-Miao/Python-in-Action/tree/master/CheckComputer)
     - 透过监控系统实现闭环管理
-- 电脑监控系统设计和开发（单独章节说明）
+
+- 电脑监控系统设计和开发
     - 实现监控电脑基本信息、安全信息、系统性能、系统运行状况等
-- 透过监控数据分析电脑问题（单独章节说明）
+    - 介绍连接：[https://charles-miao.github.io/post/Host-PC-Monitoring-2/](https://charles-miao.github.io/post/Host-PC-Monitoring-2/)
+
+- 透过监控数据分析电脑问题（待更新）
     - 使用工具和方法：R，相关性分析
-- 电脑故障追踪，协助分析问题（单独章节说明）
+
+- 自动化部署电脑系统、驱动和程式（待更新）
+    - 使用工具和方法：Ansible、PXE备份还原、自定义系统开发
+
+- 电脑故障追踪，协助分析问题（待完善）
     - 使用工具：Mantis，trac
-- 电脑智慧化管理案例分享（单独章节说明）
+
+- 电脑智慧化管理案例分享（待完善）
+
+- 电脑自动休眠和shutdown（待完善）
 
