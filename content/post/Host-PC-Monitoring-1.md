@@ -8,9 +8,9 @@ categories: [运维]
 ---
 主要内容
 ---
-- 做这个专案的背景
-- 系统化管理蓝图构思
-- 实战工具和方法介绍
+- 专案背景
+- 蓝图和构思
+- 实战工具和方法
 <!--more-->
 
 背景
@@ -41,7 +41,7 @@ categories: [运维]
 
 - 封装Windows image
     - 使用工具：EasySysprep
-    - 参考连接：https://cloud.tencent.com/developer/article/1438238
+    - 参考连接：[https://cloud.tencent.com/developer/article/1438238](https://cloud.tencent.com/developer/article/1438238)
 - 自动化部署电脑系统、驱动和程式（单独章节说明）
     - 使用工具和方法：Ansible、PXE备份还原、自定义系统开发
 - 自动升级电脑补丁
@@ -51,7 +51,7 @@ categories: [运维]
     - 使用工具：TightVNC
     - 使用方法：将VNC工具封装在电脑image中，透过监控系统获取电脑的IP信息，再透过服务器远程控制产线电脑
 - 自动检查officescan和正版激活状况
-    - 自定义开发工具：https://github.com/Charles-Miao/Python-in-Action/tree/master/CheckComputer
+    - 自定义开发工具：[https://github.com/Charles-Miao/Python-in-Action/tree/master/CheckComputer](https://github.com/Charles-Miao/Python-in-Action/tree/master/CheckComputer)
     - 透过监控系统实现闭环管理
 - 电脑监控系统设计和开发（单独章节说明）
     - 实现监控电脑基本信息、安全信息、系统性能、系统运行状况等
