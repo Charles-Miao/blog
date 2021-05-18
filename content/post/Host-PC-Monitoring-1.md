@@ -58,8 +58,9 @@ categories: [运维]
     - 实现监控电脑基本信息、安全信息、系统性能、系统运行状况等
     - 介绍连接：[https://charles-miao.github.io/post/Host-PC-Monitoring-2/](https://charles-miao.github.io/post/Host-PC-Monitoring-2/)
 
-- 透过监控数据分析电脑问题（待更新）
+- 透过监控数据分析电脑问题
     - 使用工具和方法：R，相关性分析
+    - 链接：[https://charles-miao.github.io/post/Host-PC-Monitoring-3/](https://charles-miao.github.io/post/Host-PC-Monitoring-3/)
 
 - 自动化部署电脑系统、驱动和程式（待更新）
     - 使用工具和方法：Ansible、PXE备份还原、自定义系统开发

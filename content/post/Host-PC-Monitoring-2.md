@@ -3,7 +3,7 @@ title: "生产电脑智慧化管理 - 数据可视化"
 date: 2020-09-01T22:49:33+08:00
 description: ""
 draft: false
-tags: [WEB,DYI]
+tags: [WEB]
 categories: [原型设计,运维]
 ---
 主要内容
