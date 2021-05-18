@@ -2,12 +2,11 @@
 title: "Zabbix in Action - DL160 G6"
 date: 2021-05-18T22:22:27+08:00
 description: ""
-draft: true
+draft: false
 tags: [Zabbix,Linux,HP]
 categories: [运维]
 ---
 
----
 主要内容
 ---
 - 背景说明
@@ -50,7 +49,7 @@ rpm -e XXX.rpm --nodeps #卸载软件包
 - Powersupply，此型号PS只有一个，无法透过ipmi和hpasmcli进行读值，也不需要读值
 - Disk，安装hpacucli驱动，可以透过指令hpacucli进行读值，可以透过自定义key进行监控
 
-- DL160 G6安装最新版本的hp-health，会报错：[ERROR: Failed to get SMBIOS system ID.](https://community.hpe.com/t5/System-Administration/hpasmcli-not-working-after-update-to-Debian-Jessie-8-7/m-p/6942203#M54944)，退回到旧版hp-health-9.50可以解决此error
+- DL160 G6安装最新版本的hp-health，会报[ERROR: Failed to get SMBIOS system ID.](https://community.hpe.com/t5/System-Administration/hpasmcli-not-working-after-update-to-Debian-Jessie-8-7/m-p/6942203#M54944)，退回旧版hp-health-9.50可以解决此error
 
 - [hpacucli & hpasmcli管理工具介绍](http://www.361way.com/hpacucli/5890.html)
 - [hpasmcli - How to use hpasmcli command on HP Proliant Server](https://cmdref.net/hardware/proliant/hpasmcli.html)
