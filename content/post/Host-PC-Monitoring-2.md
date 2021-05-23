@@ -1,5 +1,5 @@
 ---
-title: "生产电脑智慧化管理 - 数据可视化"
+title: "设备电脑监控 - 原型设计"
 date: 2020-09-01T22:49:33+08:00
 description: ""
 draft: false

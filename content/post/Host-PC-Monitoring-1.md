@@ -1,5 +1,5 @@
 ---
-title: "生产电脑智慧化管理 - 蓝图篇"
+title: "设备电脑监控 - 蓝图篇"
 date: 2020-08-11T22:03:23+08:00
 description: ""
 draft: false
