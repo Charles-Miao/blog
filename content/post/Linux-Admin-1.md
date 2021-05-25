@@ -18,6 +18,8 @@ categories: [运维]
 
 <!--more-->
 
+> [详细笔记](https://github.com/Charles-Miao/Linux/blob/master/Linux%E5%9F%BA%E7%A1%80/%E7%AC%94%E8%AE%B01~12.txt)
+
 硬件系统
 ---
 - 内存中两个存储空间
@@ -226,9 +228,13 @@ d or x #删除
 ```shell
 #	yum源优化
 #	防火墙优化
-#	selinux优化，vim /etc/selinux/config
-#	字符编码优化，vim /etc/locale.conf
-#	优化远程连接速度，vim /etc/ssh/sshd_config，vim /etc/hosts
+#	selinux优化
+vim /etc/selinux/config
+#	字符编码优化
+vim /etc/locale.conf
+#	优化远程连接速度
+vim /etc/ssh/sshd_config
+vim /etc/hosts
 ```
 
 其他指令
@@ -278,6 +284,7 @@ cat >> /oldboy/oldboy.txt <<EOF
 > EOF
 
 ```
+
 
 
 
