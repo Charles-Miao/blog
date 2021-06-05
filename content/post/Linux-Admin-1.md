@@ -207,7 +207,7 @@ dG #将光标位置删除到文章底部
 /#搜索文件中没有的信息，取消高亮
 :2,4move9 #将第2行~4行的内容移到第9行
 :2,4copy9 #将第2行~4行的内容拷贝到第9行
-:%s#oldboy #oldgirl#g#将文件中指定内容全部替换
+:%s#oldboy#oldgirl#g #将文件中指定内容全部替换
 #s substitute 替换
 #g global 全局
 :2,4s#oldboy#oldgirl#g #替换部分内容第2~4行
