@@ -84,6 +84,7 @@ vim /etc/profile #永久修改umask信息
 chmod u+s /bin/cat
 chmod 4755 /bin/cat
 #setgid权限位设置，将文件属组拥有的能力，分配给所有用户组
+chomd 2755 /bin/cat
 #sticky bit粘滞位，可以将不同用户信息放置到共享目录中，实现不同用户数据可以互相查看，但是不可以互相随意修改
 chmod o+t 目录信息
 chmod 1777 目录信息
@@ -174,6 +175,8 @@ su - root #全部环境变量切换有变化
 oldboy ALL=(ALL) /user/sbin/*, !/user/sbin/visudo, /usr/bin/*
 #2. 不需要账号密码
 oldboy ALL=(ALL) NOPASSWD: /user/sbin/*, !/user/sbin/visudo, /usr/bin/*
+#第一个ALL代表接受所有主机ip，第二个(ALL)表示能够提权到(任意用户:任意用户组)
+#授权用户/组 主机  =[(切换到哪些用户或组)] [是否需要输入密码验证] 命令1,命令2,...
 ```
 
 ## 定时服务

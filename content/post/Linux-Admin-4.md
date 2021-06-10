@@ -12,12 +12,16 @@ categories: [运维]
 - 交换机和路由器
 - 网络层次模型
 - TCP三次握手和四次挥手
-- 相关网络协议
+- 相关服务和协议
 - 子网和路由
 - 网络服务
 - 其他知识
 
 <!--more-->
+
+> [详细笔记1](https://github.com/Charles-Miao/Linux/blob/master/Linux%E5%9F%BA%E7%A1%80/%E7%AC%94%E8%AE%B025~26.txt)
+
+> [详细笔记2](https://github.com/Charles-Miao/Linux/blob/master/Linux%E5%9F%BA%E7%A1%80/%E7%AC%94%E8%AE%B025~26%E8%A1%A5%E5%85%85.txt)
 
 ## 交换机和路由器
 ```shell
@@ -56,7 +60,6 @@ categories: [运维]
 
 ![Encapsulation](https://github.com/Charles-Miao/blog/blob/master/static/Network/OSI%E6%95%B0%E6%8D%AE%E5%B0%81%E5%8C%85%E8%A3%85%E8%BF%87%E7%A8%8B.JPG?raw=true)
 ![Decapsulation](https://github.com/Charles-Miao/blog/blob/master/static/Network/OSI%E4%BA%92%E8%81%94%E6%95%B0%E6%8D%AE%E5%8C%85%E8%A7%A3%E5%B0%81%E8%A3%85%E8%BF%87%E7%A8%8B.JPG?raw=true)
-![Encap_Decap](https://github.com/Charles-Miao/blog/blob/master/static/Network/%E6%95%B0%E6%8D%AE%E5%B0%81%E8%A3%85%E4%B8%8E%E8%A7%A3%E5%B0%81%E8%A3%85%E8%BF%87%E7%A8%8B.JPG?raw=true)
 
 
 ### TCP/IP四层模型
@@ -65,8 +68,14 @@ categories: [运维]
 # TCP协议：传输控制协议，面向连接的网络协议，在线发送文件，数据传输可靠性高，传输效率低
 # UDP协议：用户报文协议，无连接的网络协议，离线发送文件，数据传输可靠性低，传输效率高
 ```
+
+### 四层模型的加密和解密
+![Encap_Decap](https://github.com/Charles-Miao/blog/blob/master/static/Network/%E6%95%B0%E6%8D%AE%E5%B0%81%E8%A3%85%E4%B8%8E%E8%A7%A3%E5%B0%81%E8%A3%85%E8%BF%87%E7%A8%8B.JPG?raw=true)
+
+### 四层模型相关协议
 ![protocol](https://github.com/Charles-Miao/blog/blob/master/static/Network/TCP%20IP%E7%9B%B8%E5%85%B3%E5%8D%8F%E8%AE%AE.JPG?raw=true)
- 
+
+### 4层和7层模型对比 
 ![OSI7_TCP_IP](https://github.com/Charles-Miao/blog/blob/master/static/Network/OSI%E6%A8%A1%E5%9E%8B%E5%92%8CTCP%20IP%E6%A8%A1%E5%9E%8B%E5%AF%B9%E5%BA%94%E5%85%B3%E7%B3%BB.JPG?raw=true)
 
 ## TCP三次握手和四次挥手
@@ -87,16 +96,19 @@ categories: [运维]
 # 1. 主机A向主机B发送TCP报文，报文中控制字段syn置为1，请求建立连接
 # 2. 主机B向主机A发送TCP响应报文，报文中控制字段syn置为1，ack置为1
 # 3. 主机A向主机B发送TCP报文，报文中控制字段ack置为1，确认主机B发送信息已经接收到了
+```
 
+![three_handshake](https://github.com/Charles-Miao/blog/blob/master/static/Network/%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E7%AE%80%E5%9B%BE.JPG?raw=true)
+
+
+```shell
 # 1. 发送syn请求建立连接控制字段，发送seq序列号信息（X），第一个数据包的序列号默认为0
 # 2. 发送syn请求建立连接控制字段，同时还会发送ack确认控制字段
 #     发送seq序列号信息（Y），还会发送ACK确认号（X+1）信息（对上一个数据序列号信息进行确认）
 # 3. 发送ack确认控制字段，发送seq序列号信息（X+1），发送ack确认号（Y+1）
 ```
 
-![three_handshake](https://github.com/Charles-Miao/blog/blob/master/static/Network/%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E7%AE%80%E5%9B%BE.JPG?raw=true)
-
-![three_handshake](https://github.com/Charles-Miao/blog/blob/master/static/Network/%E6%95%B0%E6%8D%AE%E5%B0%81%E8%A3%85%E4%B8%8E%E8%A7%A3%E5%B0%81%E8%A3%85%E8%BF%87%E7%A8%8B.JPG?raw=true)
+![three_handshake_detail](https://github.com/Charles-Miao/blog/blob/master/static/Network/%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B.JPG?raw=true)
 
 ### TCP四次挥手
 ```shell
@@ -117,8 +129,11 @@ categories: [运维]
 # 3. 服务端接收到连接请求，进行去确认	listen --- syn_rcvd
 # 4. 客户端再次进行确认		syn_sent --- established
 # 5. 服务器接收到确认信息		syn_rcvd --- established
+```
+![three_handshake](https://github.com/Charles-Miao/blog/blob/master/static/Network/%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E7%8A%B6%E6%80%81%E5%8F%98%E5%8C%96%E9%9B%86.JPG?raw=true)
 
-# TCP四次握手
+```shell
+# TCP四次挥手
 # 1. 客户端发送请求断开连接信息			established --- fin_wait1
 # 2. 服务器接收断开连接请求，并进行确认		established ---close_wait
 # 3. 客户端接收到了确认信息			fin_wait1 --- fin_wait2
@@ -127,11 +142,9 @@ categories: [运维]
 # 6. 服务器端接收到确认信息			last_ack --- closed
 # 7. 客户端等待一段时间			time_wait --- closed
 ```
-![three_handshake](https://github.com/Charles-Miao/blog/blob/master/static/Network/%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E7%8A%B6%E6%80%81%E5%8F%98%E5%8C%96%E9%9B%86.JPG?raw=true)
-
 ![four_wave](https://github.com/Charles-Miao/blog/blob/master/static/Network/%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B%E7%8A%B6%E6%80%81%E5%8F%98%E5%8C%96%E9%9B%86.JPG?raw=true)
 
-## 相关网络协议
+## 相关服务和协议
 
 ### DNS解析原理
 
