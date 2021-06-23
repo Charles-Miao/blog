@@ -14,6 +14,8 @@ categories: [运维]
 
 <!--more-->
 
+> [详细笔记](https://github.com/Charles-Miao/Linux/blob/master/Linux%E5%9F%BA%E7%A1%80/%E7%AC%94%E8%AE%B032~36.txt)
+
 ## ssh
 
 ```shell
