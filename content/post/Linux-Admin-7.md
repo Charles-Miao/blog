@@ -9,8 +9,13 @@ categories: [运维]
 
 # 主要内容
 
-- 
-- 
+- nginx服务部署安装
+- nginx目录结构
+- nginx服务的企业应用
+- nginx访问模块
+- 网站的LNMP架构部署
+- 负载均衡
+- 高可用服务
 
 <!--more-->
 
@@ -48,7 +53,7 @@ systemctl start nginx
 systemctl enable nginx
 ```
 
-## 软件目录结构
+## nginx目录结构
 
 ### /etc/logrotate.d
 ```shell
@@ -251,7 +256,7 @@ server {
 #     显示主机的网站页面
 ```
 
-## 访问模块
+## nginx访问模块
 
 ### nginx访问模块：ngx_http_access_module
 ```shell
