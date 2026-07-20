@@ -4,14 +4,14 @@ date: 2026-03-13 21:55:03
 draft: false
 toc: true
 tags:
-  -   - Python
+  - Python
   - 自动化测试
   - 日志处理
   - XML
   - DevOps
   - 实战案例
 categories:
-  -   - 技术
+  - 技术
   - DevOps
 ---
 

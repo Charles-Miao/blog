@@ -3,8 +3,10 @@ title: "Linux基础 - Part2"
 date: 2021-05-25T21:56:36+08:00
 description: ""
 draft: false
-tags: [Linux]
-categories: [运维]
+tags:
+  - Linux
+categories:
+  - 运维
 ---
 
 # 主要内容

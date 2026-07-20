@@ -3,8 +3,11 @@ title: "设备电脑监控 - 原型设计"
 date: 2020-09-01T22:49:33+08:00
 description: ""
 draft: false
-tags: [WEB]
-categories: [原型设计,运维]
+tags:
+  - WEB
+categories:
+  - 原型设计
+  - 运维
 ---
 主要内容
 ---

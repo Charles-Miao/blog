@@ -3,8 +3,10 @@ title: "Zabbix Intro & Demo"
 date: 2019-11-14T18:26:47+08:00
 description: ""
 draft: false
-tags: [Zabbix]
-categories: [运维]
+tags:
+  - Zabbix
+categories:
+  - 运维
 ---
 主要简单介绍Zabbix的特性、安装和配置，以及一些常用手册，并demo实现常见的一些数据采集方法、图形展示、触发报警等
 <!--more-->

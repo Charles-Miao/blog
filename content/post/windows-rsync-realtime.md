@@ -3,8 +3,13 @@ title: "Windows实时同步文件至NAS"
 date: 2021-07-13T22:58:21+08:00
 description: ""
 draft: false
-tags: [Windows, NAS, rsync, Python]
-categories: [运维]
+tags:
+  - Windows
+  - NAS
+  - rsync
+  - Python
+categories:
+  - 运维
 ---
 # 主要内容
 - 问题说明

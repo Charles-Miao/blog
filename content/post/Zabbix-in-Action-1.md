@@ -3,8 +3,11 @@ title: "Zabbix in Action - Windows"
 date: 2019-11-21T10:38:09+08:00
 description: ""
 draft: false
-tags: [Zabbix, Windows]
-categories: [运维]
+tags:
+  - Zabbix
+  - Windows
+categories:
+  - 运维
 ---
 
 软硬件环境

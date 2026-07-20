@@ -3,8 +3,11 @@ title: "Zabbix in Action - Grafana"
 date: 2020-07-07T22:25:58+08:00
 description: ""
 draft: false
-tags: [Zabbix, Grafana]
-categories: [运维]
+tags:
+  - Zabbix
+  - Grafana
+categories:
+  - 运维
 ---
 主要内容
 ---

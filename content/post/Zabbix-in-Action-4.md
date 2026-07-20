@@ -3,8 +3,12 @@ title: "Zabbix in Action - DL160 G6"
 date: 2021-05-18T22:22:27+08:00
 description: ""
 draft: false
-tags: [Zabbix,Linux,HP]
-categories: [运维]
+tags:
+  - Zabbix
+  - Linux
+  - HP
+categories:
+  - 运维
 ---
 
 主要内容

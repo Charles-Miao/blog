@@ -3,8 +3,13 @@ title: "Zabbix自定义Key读值为空"
 date: 2021-05-19T22:15:08+08:00
 description: ""
 draft: false
-tags: [Zabbix,apacucli,Python,Linux]
-categories: [运维]
+tags:
+  - Zabbix
+  - apacucli
+  - Python
+  - Linux
+categories:
+  - 运维
 ---
 
 主要内容

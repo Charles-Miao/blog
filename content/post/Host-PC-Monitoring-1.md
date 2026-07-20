@@ -3,8 +3,11 @@ title: "设备电脑监控 - 蓝图篇"
 date: 2020-08-11T22:03:23+08:00
 description: ""
 draft: false
-tags: [Windows, PC]
-categories: [运维]
+tags:
+  - Windows
+  - PC
+categories:
+  - 运维
 ---
 主要内容
 ---
