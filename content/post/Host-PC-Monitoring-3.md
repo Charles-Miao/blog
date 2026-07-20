@@ -3,11 +3,8 @@ title: "设备电脑监控 - 有趣的数据分析"
 date: 2020-09-09T22:02:30+08:00
 description: ""
 draft: false
-tags:
-  - R
-  - 相关性验证
-categories:
-  - 数据分析
+tags: [R,相关性验证]
+categories: [数据分析]
 ---
 主要内容：
 ---

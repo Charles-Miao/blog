@@ -1,6 +1,6 @@
 ---
 title: "Python 实战：自动化测试日志转 XML 系统实践"
-date: 2026-03-13 21:55:03
+date: 2024-12-10T12:00:00+08:00
 draft: false
 toc: true
 tags:
@@ -14,8 +14,6 @@ categories:
   - 技术
   - DevOps
 ---
-
-# Python 实战：自动化测试日志转 XML 系统实践
 
 > **摘要**：本文介绍了一个生产环境中的实际案例——如何使用 Python 将车电测试日志自动转换为 EDA 系统所需的 XML 格式。从需求分析、架构设计到 20+ 个 Bug 修复，完整记录了一个自动化工具从 0 到 1 的开发过程。
 
@@ -71,7 +69,6 @@ log_to_xml/
 #### 2.1 日志解析（正则表达式）
 
 ```python
-# 提取测试状态
 status_pattern = r"runner\s+-\s+INFO\s+-\s+Status:\s+(PASS|FAIL)"
 
 # 提取序列号

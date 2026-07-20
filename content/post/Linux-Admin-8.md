@@ -3,10 +3,8 @@ title: "Linux基础 - Part8"
 date: 2021-06-28T23:19:54+08:00
 description: ""
 draft: false
-tags:
-  - Linux
-categories:
-  - 运维
+tags: [Linux]
+categories: [运维]
 ---
 # 主要内容
 - 监控内容

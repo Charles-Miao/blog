@@ -3,10 +3,8 @@ title: "Linux基础 - Part5"
 date: 2021-06-07T23:19:19+08:00
 description: ""
 draft: false
-tags:
-  - Linux
-categories:
-  - 运维
+tags: [Linux]
+categories: [运维]
 ---
 # 主要内容
 

@@ -2,8 +2,7 @@
 title: "About The Blog"
 date: 2020-06-25T09:32:30+08:00
 draft: false
-categories:
-  - "生活"
+categories: ["生活"]
 author: "Charles Miao"
 ---
 主要讲博客因何而起，以及一路怎么实现的博客，顺便还介绍了一些笔记类工具

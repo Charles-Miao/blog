@@ -3,11 +3,8 @@ title: "Zabbix in Action - Linux"
 date: 2020-06-28T11:53:17+08:00
 description: ""
 draft: false
-tags:
-  - Zabbix
-  - Linux
-categories:
-  - 运维
+tags: [Zabbix, Linux]
+categories: [运维]
 ---
 主要内容
 ---
