@@ -1,5 +1,5 @@
 ---
-title: "老化看板Web程序开发"
+title: "应用开发：老化看板Web程序开发"
 date: 2026-08-13T21:00:00+08:00
 draft: false
 toc: true
