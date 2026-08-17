@@ -1,5 +1,5 @@
 ---
-title: "AI Agent应用 - 自动化工单检查工作流"
+title: "自动化工单检查工作流"
 date: 2026-07-23T17:00:00+08:00
 draft: false
 toc: true

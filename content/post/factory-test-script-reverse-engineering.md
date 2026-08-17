@@ -1,5 +1,5 @@
 ---
-title: "AI Agent应用 - 制造测试脚本逆向工程"
+title: "制造测试脚本逆向工程"
 date: 2026-08-02T16:00:00+08:00
 draft: false
 toc: true
