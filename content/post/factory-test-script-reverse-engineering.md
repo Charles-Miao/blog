@@ -1,5 +1,5 @@
 ---
-title: "项目理解：制造测试脚本逆向工程"
+title: "Agent应用：基于QwenPaw的项目理解"
 date: 2026-08-02T16:00:00+08:00
 draft: false
 toc: true
