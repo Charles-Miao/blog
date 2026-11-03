@@ -1,5 +1,5 @@
 ---
-title: "应用开发 - DimLight节能项目"
+title: "应用开发：DimLight节能项目"
 date: 2026-11-03T08:00:00+08:00
 draft: false
 toc: true
